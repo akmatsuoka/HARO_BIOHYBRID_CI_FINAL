@@ -89,3 +89,64 @@ In summary, the minimum evidence package for translation is an \emph{anatomy‑p
 	\end{tabular}
 \end{table*}
 % ---- End: Benchmarks table for Section 6 ----
+% sections/06_benchmarks_table.tex
+% Optional at-a-glance table for Section 6 (REVTeX preprint)
+\begin{table*}[t]
+	\caption{Translational benchmarks for a CPS-guided biohybrid cochlear implant. Tags: [CPS] = specific to canaliculi perforantes strategy; [General] = applicable to regenerative bioelectronics or CI interfaces broadly.}
+	\label{tab:benchmarks}
+	\centering
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{p{0.19\textwidth} p{0.25\textwidth} p{0.28\textwidth} p{0.08\textwidth} p{0.18\textwidth}}
+		\hline
+		\textbf{Benchmark} & \textbf{Primary readout(s)} & \textbf{Preferred method / model} & \textbf{Tag} & \textbf{Key refs} \\
+		\hline
+		CPS patency \& access in adult ears &
+		Presence, opening density/diameter, \CPS--modiolus connectivity (\SIrange{100}{500}{\micro\meter}) &
+		\emph{Ex vivo} dye/nanoparticle injection from \ST; micro-CT and histology in human temporal bone \& large-animal models &
+		[CPS] &
+		\cite{raskandersen2006, sando1971, masuda1971, lim1970} \\
+		
+		Gradient control at medial \ST\ wall &
+		Steep, spatially confined concentration fields at \CPS\ inlets; minimal off-target exposure &
+		Finite-element transport \& current-flow modeling anchored to measured resistivities; benchtop cochlea replicas &
+		[CPS/General] &
+		\cite{Micco2006, nella2023} \\
+		
+		Guidance efficacy near bone &
+		Neurite trajectory fidelity and growth fraction toward \CPS-aligned interfaces; stability after cue withdrawal &
+		Cochlea-mimetic assays with chemical (trophic/gene/vesicle), mechanical (stiffness/topography), and electrical cueing &
+		[CPS] &
+		\cite{Kempfle2021, StPeter2022, Chang2020, Scheper2019, tan2012, CarnicerLombarte2024AdvMat} \\
+		
+		Interface-level functional coupling &
+		Lower ECAP/eABR thresholds; narrower spread of excitation (SOE); increased channel independence &
+		In vivo mapping (ECAP/eABR, SOE) in auditory models; clinic-style pipelines for comparability &
+		[CPS] &
+		\cite{wilson2008, wilson2014, Micco2006, Rebscher2008} \\
+		
+		Surgical practicality \& atraumatic insertion &
+		Insertion forces; absence of tip fold-over/translocation; workflow compatibility (RW vs.\ cochleostomy) &
+		Temporal bone insertion studies with force sensing and post-insertion imaging; surgeon usability testing &
+		[CPS/General] &
+		\cite{Rebscher2008, Sheykholeslami2002} \\
+		
+		Chronic stability under stimulation \& flow &
+		Impedance drift; fibrosis/biofouling; coating adhesion/integrity under duty cycles &
+		Long-duration large-animal implants with clinical-like stimulation; impedance/SOE tracking; histology &
+		[CPS/General] &
+		\cite{Dalrymple2020, Horne2023} \\
+		
+		Manufacturability \& sterilization compatibility &
+		Batch reproducibility (thickness, release profile, mechanics); sterilization/packaging pass &
+		Pilot-scale process controls; CI sterilization validation; mechanical/chemical acceptance tests &
+		[General] &
+		— \\
+		
+		Model credibility for regulatory use &
+		Documented V\&V\&UQ; traceability of assumptions to data; sensitivity analyses &
+		Good-modeling-practice documentation; cross-checks against bench and \emph{in vivo} readouts &
+		[General] &
+		\cite{USFDA2021InSilico} \\
+		\hline
+	\end{tabular}
+\end{table*}
