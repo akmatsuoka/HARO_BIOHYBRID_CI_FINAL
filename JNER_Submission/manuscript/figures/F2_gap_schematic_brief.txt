@@ -1,0 +1,21 @@
+F2 — Electrode–Neuron Gap Schematic (Figure Brief)
+Goal: visually motivate the biohybrid strategy by quantifying and depicting the mm-scale gap and the proposed CPS-guided bridging.
+
+Panel A: Cross-sectional cartoon of the cochlea at the basal turn.
+- Show scala tympani (ST), osseous spiral lamina (OSL), Rosenthal's canal (RC), modiolus.
+- Indicate a perimodiolar electrode array within ST.
+- Annotate approximate distances from electrode contacts to SGN somata/peripheral processes.
+
+Panel B: Zoom on the OSL/modiolar region highlighting CPS.
+- Stylized perforations labeled “Canaliculi perforantes (Schuknecht)”.
+- Arrows depicting potential microconduits connecting ST to neural compartments.
+
+Panel C: Concept overlay of a biohybrid interface.
+- Hydrogel sleeve or coating with microfluidic port(s).
+- Localized release plume (e.g., neurotrophin/RNA) entering CPS.
+- Guided neurite trajectories extending toward an electrode shank or microelectrode.
+
+Design notes:
+- Keep colors minimal; focus on distances and labels.
+- Include scale bars keyed to typical dimensions (100–500 µm).
+- Export as vector (PDF) for crisp labeling.

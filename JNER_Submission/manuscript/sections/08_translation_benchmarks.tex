@@ -1,0 +1,152 @@
+\section*{7. Translational benchmarks and constraints}
+
+The translational case for a biohybrid cochlear implant rests on a few questions that must be answered convincingly before a first‑in‑human (FIH) feasibility study is contemplated. In brief, we must establish that the \CPS\ are accessible routes from the \ST\ into modiolar tissue [CPS]; that spatially confined chemical, mechanical, and electrical cues can be delivered there with reproducible geometry and dose control [CPS/General]; that such cues bias neurites toward recording/stimulation sites with acceptable fidelity in the cochlear environment [CPS]; that any interface gains persist under clinically realistic stimulation and fluid dynamics [CPS/General]; and that the overall surgical workflow and risk profile remain aligned with contemporary practice [General]. The narrative below organizes these requirements into two groups—\emph{benchmarks} (what should be shown) and \emph{constraints} (what bounds design and study execution)—but emphasizes that many items will be addressed in parallel.
+
+\subsection*{6.1 Benchmarks: what to show before first-in-human}
+
+A first bundle of evidence concerns anatomical access and patency. Classical temporal bone studies describe communications between perilymph and modiolar spaces; however, for translation we need specimen‑ and cohort‑relevant confirmation that small channels consistent with \CPS\ are present along the medial \ST\ wall in adults, that their openings are not uniformly sealed by endosteum, and that they connect to modiolar compartments across \SIrange{100}{500}{\micro\meter} length scales [CPS]. Practical readouts include ex vivo dye or nanoparticle injections from the \ST\ with micro‑CT and histology in human temporal bone and an appropriate large‑animal model, coupled to quantification of opening density, diameter distributions, and endosteal coverage.\cite{raskandersen2006, sando1971, masuda1971, lim1970}
+
+Given access, the second benchmark is dose geometry and gradient control. Delivery ports or sleeves positioned along the medial \ST\ wall should establish steep, spatially confined concentration fields at \CPS\ inlets so that guidance cues act locally while off‑target exposure is minimized [CPS]. Here, finite‑element transport and current‑flow models anchored to measured resistivities and anatomical measurements can predict pulse volumes, flow rates, and port spacing that maintain usable gradients; benchtop replicas with cochlear fluids can cross‑check these predictions prior to animal work [CPS/General].\cite{Micco2006, nella2023}
+
+Third, efficacy of guidance near bone must be shown in preparations that mimic the cochlear milieu. The question is whether neurites are measurably biased toward \CPS‑aligned interfaces when exposed to chemical (e.g., neurotrophins or gene/vesicle cargo), mechanical (stiffness/topography), and electrical cues delivered in anatomically plausible geometries [CPS]. Trajectory fidelity, growth fraction, and stability after cue withdrawal provide concrete readouts, and recent regenerative bioelectronics reports offer portable designs for multi‑modal cueing in constrained spaces [General].\cite{Kempfle2021, StPeter2022, Chang2020, Scheper2019, tan2012, CarnicerLombarte2024AdvMat}
+
+Fourth, interface‑level functional metrics should improve in vivo in ways that plausibly translate to listening outcomes. Reduced ECAP/eABR thresholds at basal contacts, narrower spread of excitation (SOE), and greater channel independence are the primary candidates [CPS]. These metrics connect to spectral and temporal resolution and have established measurement pipelines in animal models and the clinic [General].\cite{wilson2008, wilson2014, Micco2006, Rebscher2008}
+
+Fifth, surgical practicality and atraumatic insertion must be demonstrated. Added ports, sleeves, or coatings should not increase insertion forces, tip fold‑over, or translocation risk relative to contemporary perimodiolar arrays; the workflow (round‑window versus limited cochleostomy) should remain familiar [CPS/General]. Temporal bone insertion studies, imaging for scalar position, and force sensing can provide early proof at minimal risk.\cite{Rebscher2008, Sheykholeslami2002}
+
+Finally, chronic stability under stimulation and intracochlear fluid dynamics is essential. Biohybrid layers should maintain adhesion, mechanical integrity, and low impedance across months of clinically relevant duty cycles, while minimizing fibrotic encapsulation or biofouling [CPS/General]. Long‑term large‑animal implants can quantify impedance drift, SOE stability, and histological response under conditions that approximate human use.\cite{Dalrymple2020, Horne2023} Manufacturing reproducibility (thickness, release profile, mechanical properties) and sterilization compatibility must be shown at pilot scale to support consistent study devices [General]. Where modeling informs safety or dosing, submissions benefit from explicit documentation of verification, validation, and uncertainty quantification per device‑modeling guidance [General].\cite{USFDA2021InSilico}
+
+\subsection*{6.2 Constraints: what bounds design and study execution}
+
+Several constraints shape device and study design from the outset. Surgically, the interface must respect scala boundaries and the medial \ST\ wall and should avoid modiolar drilling [CPS/General]. Any increase in trauma relative to standard arrays is unacceptable; pre‑operative imaging and intraoperative feedback can help manage variability in \OSL/\CPS\ density and alignment during insertion.\cite{Rebscher2008, Sheykholeslami2002}
+
+Safety considerations include limiting off‑target sprouting, ectopic synapse formation, or overgrowth caused by trophic or gene cues, as well as bounding maximum local dose and exposure time [CPS/General]. Reversibility and retreatability should be planned where feasible, for example by selecting cue formats and port designs that can be discontinued without destabilizing the interface.\cite{Kempfle2021, StPeter2022, Scheper2019}
+
+Materials and interface constraints require maintaining electrical performance (impedance, charge injection) while adding guidance and delivery functions [CPS/General]. Coatings must survive insertion shear and chronic micromotion in the basal turn; conductive or zwitterionic hydrogels are promising but still need long‑duration evidence in the cochlear milieu.\cite{Dalrymple2020, Horne2023} From a regulatory perspective, the likely status is a combination product (device with a drug/biologic component), which implies a preclinical package spanning biocompatibility, toxicology, leachables, dose–response, and chronic safety in a relevant model, alongside the applicable active‑implantable and cochlear‑implant standards [General].\cite{ISO14708} Where in‑silico arguments support dose or safety margins, they should be paired with empirical validation to strengthen submissions [General].\cite{USFDA2021InSilico}
+
+Clinical feasibility studies should enroll adult, post‑lingual candidates with patent basal turns and minimal ossification to de‑risk anatomy [CPS/General]. Primary endpoints at this stage should remain interface‑level—ECAP thresholds, SOE width, channel interaction metrics—with exploratory speech‑in‑noise and music outcomes to estimate effect sizes and inform later, adequately powered trials [General].\cite{wilson2008, wilson2014} Ethical considerations include clearly communicating reversible versus irreversible elements of the interface, management of unanticipated neurite growth, and device serviceability (upgrade or explant) under standard‑of‑care scenarios [General].
+
+In summary, the minimum evidence package for translation is an \emph{anatomy‑plus‑function} dossier: direct confirmation of \CPS\ accessibility and local gradient control [CPS], reproducible neurite bias toward the modiolus in anatomically faithful settings [CPS], durable interface‑level gains under realistic use [CPS/General], and a surgical/regulatory profile aligned with today’s cochlear implant practice [General]. Meeting these benchmarks under the constraints above provides a credible path to FIH evaluation.
+
+
+% ---- Begin: Benchmarks table for Section 7 ----
+\begin{table*}[t]
+	\caption{Translational benchmarks for a CPS-guided biohybrid cochlear implant. Tags: [CPS] = specific to canaliculi perforantes strategy; [General] = applicable to regenerative bioelectronics or CI interfaces broadly.}
+	\centering
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{p{0.18\textwidth} p{0.26\textwidth} p{0.28\textwidth} p{0.08\textwidth} p{0.18\textwidth}}
+		\hline
+		\textbf{Benchmark} & \textbf{Primary readout(s)} & \textbf{Preferred method / model} & \textbf{Tag} & \textbf{Key refs} \\
+		\hline
+		CPS patency \& access in adult ears &
+		Presence, opening density/diameter, \CPS--modiolus connectivity (\SIrange{100}{500}{\micro\meter}) &
+		\emph{Ex vivo} dye/nanoparticle injection from \ST; micro-CT and histology in human temporal bone \& large-animal models &
+		[CPS] &
+		\cite{raskandersen2006, sando1971, masuda1971, lim1970} \\
+		
+		Gradient control at medial \ST\ wall &
+		Steep, spatially confined concentration fields at \CPS\ inlets; minimal off-target exposure &
+		Finite-element transport and current-flow modeling anchored to measured resistivities; benchtop cochlea replicas &
+		[CPS/General] &
+		\cite{Micco2006, nella2023} \\
+		
+		Guidance efficacy near bone &
+		Neurite trajectory fidelity and growth fraction toward \CPS-aligned interfaces; stability after cue withdrawal &
+		Cochlea-mimetic assays with chemical (trophic/gene/vesicle), mechanical (stiffness/topography), and electrical cueing &
+		[CPS] &
+		\cite{Kempfle2021, StPeter2022, Chang2020, Scheper2019, tan2012, CarnicerLombarte2024AdvMat} \\
+		
+		Interface-level functional coupling &
+		Lower ECAP/eABR thresholds; narrower spread of excitation (SOE); increased channel independence &
+		In vivo mapping (ECAP/eABR, SOE) in auditory models; clinic-style pipelines for comparability &
+		[CPS] &
+		\cite{wilson2008, wilson2014, Micco2006, Rebscher2008} \\
+		
+		Surgical practicality \& atraumatic insertion &
+		Insertion forces; absence of tip fold-over/translocation; workflow compatibility (RW vs. cochleostomy) &
+		Temporal bone insertion studies with force sensing and post-insertion imaging; surgeon usability testing &
+		[CPS/General] &
+		\cite{Rebscher2008, Sheykholeslami2002} \\
+		
+		Chronic stability under stimulation \& flow &
+		Impedance drift; fibrosis/biofouling; coating adhesion/integrity under duty cycles &
+		Long-duration large-animal implants with clinical-like stimulation; impedance/SOE longitudinal tracking; histology &
+		[CPS/General] &
+		\cite{Dalrymple2020, Horne2023} \\
+		
+		Manufacturability \& sterilization compatibility &
+		Batch reproducibility (thickness, release profile, mechanics); sterilization/packaging pass &
+		Pilot-scale process controls; standard CI sterilization validation; mechanical/chemical acceptance tests &
+		[General] &
+		— \\
+		
+		Model credibility for regulatory use &
+		Documented V\&V\&UQ; traceability of assumptions to data; sensitivity analyses &
+		Good-modeling-practice documentation; cross-checks against bench and \emph{in vivo} readouts &
+		[General] &
+		\cite{USFDA2021InSilico} \\
+		\hline
+	\end{tabular}
+\end{table*}
+% ---- End: Benchmarks table for Section 6 ----
+% sections/06_benchmarks_table.tex
+% Optional at-a-glance table for Section 6 (REVTeX preprint)
+\begin{table*}[t]
+	\caption{Translational benchmarks for a CPS-guided biohybrid cochlear implant. Tags: [CPS] = specific to canaliculi perforantes strategy; [General] = applicable to regenerative bioelectronics or CI interfaces broadly.}
+	\label{tab:benchmarks}
+	\centering
+	\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{p{0.19\textwidth} p{0.25\textwidth} p{0.28\textwidth} p{0.08\textwidth} p{0.18\textwidth}}
+		\hline
+		\textbf{Benchmark} & \textbf{Primary readout(s)} & \textbf{Preferred method / model} & \textbf{Tag} & \textbf{Key refs} \\
+		\hline
+		CPS patency \& access in adult ears &
+		Presence, opening density/diameter, \CPS--modiolus connectivity (\SIrange{100}{500}{\micro\meter}) &
+		\emph{Ex vivo} dye/nanoparticle injection from \ST; micro-CT and histology in human temporal bone \& large-animal models &
+		[CPS] &
+		\cite{raskandersen2006, sando1971, masuda1971, lim1970} \\
+		
+		Gradient control at medial \ST\ wall &
+		Steep, spatially confined concentration fields at \CPS\ inlets; minimal off-target exposure &
+		Finite-element transport \& current-flow modeling anchored to measured resistivities; benchtop cochlea replicas &
+		[CPS/General] &
+		\cite{Micco2006, nella2023} \\
+		
+		Guidance efficacy near bone &
+		Neurite trajectory fidelity and growth fraction toward \CPS-aligned interfaces; stability after cue withdrawal &
+		Cochlea-mimetic assays with chemical (trophic/gene/vesicle), mechanical (stiffness/topography), and electrical cueing &
+		[CPS] &
+		\cite{Kempfle2021, StPeter2022, Chang2020, Scheper2019, tan2012, CarnicerLombarte2024AdvMat} \\
+		
+		Interface-level functional coupling &
+		Lower ECAP/eABR thresholds; narrower spread of excitation (SOE); increased channel independence &
+		In vivo mapping (ECAP/eABR, SOE) in auditory models; clinic-style pipelines for comparability &
+		[CPS] &
+		\cite{wilson2008, wilson2014, Micco2006, Rebscher2008} \\
+		
+		Surgical practicality \& atraumatic insertion &
+		Insertion forces; absence of tip fold-over/translocation; workflow compatibility (RW vs.\ cochleostomy) &
+		Temporal bone insertion studies with force sensing and post-insertion imaging; surgeon usability testing &
+		[CPS/General] &
+		\cite{Rebscher2008, Sheykholeslami2002} \\
+		
+		Chronic stability under stimulation \& flow &
+		Impedance drift; fibrosis/biofouling; coating adhesion/integrity under duty cycles &
+		Long-duration large-animal implants with clinical-like stimulation; impedance/SOE tracking; histology &
+		[CPS/General] &
+		\cite{Dalrymple2020, Horne2023} \\
+		
+		Manufacturability \& sterilization compatibility &
+		Batch reproducibility (thickness, release profile, mechanics); sterilization/packaging pass &
+		Pilot-scale process controls; CI sterilization validation; mechanical/chemical acceptance tests &
+		[General] &
+		— \\
+		
+		Model credibility for regulatory use &
+		Documented V\&V\&UQ; traceability of assumptions to data; sensitivity analyses &
+		Good-modeling-practice documentation; cross-checks against bench and \emph{in vivo} readouts &
+		[General] &
+		\cite{USFDA2021InSilico} \\
+		\hline
+	\end{tabular}
+\end{table*}
